@@ -24,11 +24,6 @@ function showWeather(response) {
   let h1 = document.querySelector("#city");
   h2.innerHTML = `${Math.round(response.data.main.temp)}° F`;
   h1.innerHTML = `${response.data.name}`;
-  document.querySelector("precip").innerHTML = response.data.main.rain;
-  document.querySelector("#humidity").innerHTML = response.data.main.humidity;
-  document.querySelector("#wind").innerHTML = Math.round(
-    response.data.wind.speed
-  );
 }
 
 function searchCity(city) {
