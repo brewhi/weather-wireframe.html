@@ -90,3 +90,9 @@ ul.hours li {
   padding-left: 20px;
   padding-right: 20px;
 }
+
+#github-link {
+  display: block;
+  margin: 0 auto;
+  color: #000;
+}
