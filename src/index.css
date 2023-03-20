@@ -66,7 +66,8 @@ form input {
 .weather .units {
   position: relative;
   font-size: 16px;
-  top: -32px;
+  top: -50px;
+  left: 60px;
 }
 
 .weather .active {
@@ -115,8 +116,8 @@ form input {
 }
 
 .hourly {
-  font-weight: bold;
-  color: #000;
+  font-weight: 600;
+  color: #5b6275;
   padding: 10px;
   font-size: 20px;
 }
@@ -143,6 +144,7 @@ form input {
 
 #github-link {
   display: block;
+  position: fixed;
   margin: 30px auto;
-  color: #000;
+  color: #5b6275;
 }
