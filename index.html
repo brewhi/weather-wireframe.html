@@ -34,15 +34,33 @@
       </form>
       <button id="current-location-button">Current Location</button>
       <div class="left">
-        <h1 id="city">Detroit</h1>
-        <h2>31° F</h2>
-        <p class="today">Current Day</p>
-        <p class="hilo">High 33° | Low 30°</p>
+        <h1 id="city"></h1>
+        <p class="today"></p>
+        <div class="weather">
+          <div class="row" <div class="col">
+            <img
+              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAUhJREFUeNrt230NgzAQh2GkIAUJyJgMJCABCZNQKcxBHdyOpFkyEkYGV9oL75Lff2Rwz8pXe2tEpLlzGgAAAAAAAAAAYHsDg4+8Hp1m0ATNrJGNzGmbZdvOZN+lAFLRkyb+KHgvMX1H5wYgFR5OFL2VcATiMgA9uFbzzFD4Oss+2qoA9ID6k0P9yKnRVwGgBzJeWPg6Y1GAdIGSwpmKAFRS/C5CFoDCw/6v08EcIF3wpNL0WQHSrS5WDBDXt0hrgGfFxX+eE7IApCc8cZIuB0BwBBBMAZz9+l+jwApgcggwWQJEhwDRBMDp8P+cBhYAg2OAwQIgOAYIFgCzY4DZAkBcB4C7AywvcIwAAADgNsiDEI/CvAzxOsyECFNiTIoyLc7CCEtjLI6yPE6DBC0yNEnRJkejJK2yNEvTLs8fJgAAAAAAAADg1nkDlR7XfJiH1ggAAAAASUVORK5CYII="
+              alt="Clear"
+              id="icon"
+              class="weather"
+            />
+            <div class="col">
+              <h2 id="temperature"></h2>
+              <span class="units"
+                ><a href="#" id="celsius-link" class="active">°C</a> |
+                <a href="#" id="fahrenheit-link">°F</a></span
+              >
+            </div>
+          </div>
+          <p id="description"></p>
+        </div>
+        <div class="forecast">
+          <p class="hilo">High 33° | Low 30°</p>
 
-        <div class="elements">
-          <p class="precip">Precipitation: 0</p>
-          <p class="humidity">Humidity: 0</p>
-          <p class="wind">Wind: 0</p>
+          <div class="elements">
+            <p>Humidity: <span id="humidity"></span>%</p>
+            <p>Wind: <span id="wind"></span> km/h</p>
+          </div>
         </div>
       </div>
       <div class="hourly">🕐 Hourly Forecast</div>
@@ -54,13 +72,13 @@
         <li>4pm<br />❄️<br />33°</li>
         <li>5pm<br />❄️<br />31°</li>
       </ul>
-
       <a
         href="https://github.com/brewhi/weather-wireframe.html"
         id="github-link"
         >GitHub Repository</a
       >
     </div>
+
     <script src="src/index.js"></script>
   </body>
 </html>
