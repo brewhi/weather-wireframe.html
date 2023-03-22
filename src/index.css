@@ -58,16 +58,14 @@ form input {
 }
 
 .weather #temperature {
+  display: inline;
   color: #5b6275;
   line-height: 1;
   font-size: 45px;
 }
 
 .weather .units {
-  position: relative;
   font-size: 16px;
-  top: -50px;
-  left: 60px;
 }
 
 .weather .active {
