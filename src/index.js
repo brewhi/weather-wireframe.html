@@ -1,7 +1,7 @@
 function formateDate() {
   let now = new Date();
 
-  let today = document.querySelector("p.today");
+  let today = document.querySelector(".today");
 
   let days = [
     "Sunday",
