@@ -112,7 +112,7 @@ form input {
 }
 
 .weather-hourly {
-  padding: 10px;
+  padding: 20px;
 }
 
 .weather-forecast-date {
@@ -124,7 +124,8 @@ form input {
 }
 
 .github-link {
-  margin: -100px 0px;
+  margin-top: 50px;
+  position: fixed;
   color: #5b6275;
 }
 
