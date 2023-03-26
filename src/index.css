@@ -112,12 +112,15 @@ form input {
 }
 
 .weather-hourly {
+  padding: 10px;
 }
 
 .weather-forecast-date {
+  font-size: 15px;
 }
 
 .weather-forecast-temps {
+  font-size: 14px;
 }
 
 .github-link {
