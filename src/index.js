@@ -1,7 +1,7 @@
 function formateDate() {
   let now = new Date();
 
-  let date = document.querySelector("p.today");
+  let today = document.querySelector("p.today");
 
   let days = [
     "Sunday",
@@ -24,7 +24,7 @@ function formateDate() {
     minutes = `0${minutes}`;
   }
 
-  date.innerHTML = `${day} ${hours}:${minutes}`;
+  today.innerHTML = `${day} ${hours}:${minutes}`;
 }
 
 function showWeather(response) {
