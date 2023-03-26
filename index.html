@@ -32,14 +32,17 @@
         />
         <input class="button" type="submit" value="🔍" />
       </form>
-      <button id="current-location-button">Current Location</button>
+      <button id="current-location-button">
+        Current Location
+      </button>
       <div class="left">
         <h1 id="city"></h1>
         <p class="today"></p>
         <div class="weather">
-          <div class="row" <div class="col">
+          <div class="row">
+             <div class="col">
             <img
-              src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEgAACxIB0t1+/AAAAUhJREFUeNrt230NgzAQh2GkIAUJyJgMJCABCZNQKcxBHdyOpFkyEkYGV9oL75Lff2Rwz8pXe2tEpLlzGgAAAAAAAAAAYHsDg4+8Hp1m0ATNrJGNzGmbZdvOZN+lAFLRkyb+KHgvMX1H5wYgFR5OFL2VcATiMgA9uFbzzFD4Oss+2qoA9ID6k0P9yKnRVwGgBzJeWPg6Y1GAdIGSwpmKAFRS/C5CFoDCw/6v08EcIF3wpNL0WQHSrS5WDBDXt0hrgGfFxX+eE7IApCc8cZIuB0BwBBBMAZz9+l+jwApgcggwWQJEhwDRBMDp8P+cBhYAg2OAwQIgOAYIFgCzY4DZAkBcB4C7AywvcIwAAADgNsiDEI/CvAzxOsyECFNiTIoyLc7CCEtjLI6yPE6DBC0yNEnRJkejJK2yNEvTLs8fJgAAAAAAAADg1nkDlR7XfJiH1ggAAAAASUVORK5CYII="
+              src=""
               alt="Clear"
               id="icon"
               class="weather"
@@ -55,7 +58,7 @@
           <p id="description"></p>
         </div>
         <div class="forecast">
-          <p class="hilo">High 3°C | Low 0°C</p>
+          <p class="hilo">High 33° | Low 30°</p>
 
           <div class="elements">
             <p>Humidity: <span id="humidity"></span>%</p>
@@ -63,20 +66,100 @@
           </div>
         </div>
       </div>
-      <div class="hourly">🕐 Hourly Forecast</div>
-      <ul class="hours">
-        <li>Now<br />❄️<br />0°</li>
-        <li>1PM<br />❄️<br />0°</li>
-        <li>2PM<br />❄️<br />2°</li>
-        <li>3PM<br />❄️<br />2°</li>
-        <li>4PM<br />❄️<br />2°</li>
-        <li>5PM<br />❄️<br />1°</li>
-      </ul>
+      <div class="weather-hourly">
+        <div class="row">
+          <ul class="col-2">
+            <div class="weather-forecast-date">
+              Thur
+            </div>
+            <img
+              src="http://openweathermap.org/img/wn/50d@2x.png"
+              alt=""
+              width="36px"
+            />
+            <div class="weather-forecast-temps">
+              <span class="weather-forecast-temp-max">18°</span>
+              <span class="weather-forecast-temp-min">12°</span>
+            </ul>
+            <div class="col-2">
+              <div class="weather-forecast-date">
+                Thur
+              </div>
+              <img
+                src="http://openweathermap.org/img/wn/50d@2x.png"
+                alt=""
+                width="36px"
+              />
+              <div class="weather-forecast-temps">
+                <span class="weather-forecast-temp-max">18°</span>
+                <span class="weather-forecast-temp-min">12°</span>
+              </div>
+            </div>
+            <div class="col-2">
+              <div class="weather-forecast-date">
+                Thur
+              </div>
+              <img
+                src="http://openweathermap.org/img/wn/50d@2x.png"
+                alt=""
+                width="36px"
+              />
+              <div class="weather-forecast-temps">
+                <span class="weather-forecast-temp-max">18°</span>
+                <span class="weather-forecast-temp-min">12°</span>
+              </div>
+            </div>
+              <div class="col-2">
+                <div class="weather-forecast-date">
+                  Thur
+                </div>
+                <img
+                  src="http://openweathermap.org/img/wn/50d@2x.png"
+                  alt=""
+                  width="36px"
+                />
+                <div class="weather-forecast-temps">
+                  <span class="weather-forecast-temp-max">18°</span>
+                  <span class="weather-forecast-temp-min">12°</span>
+                </div>
+              </div>
+                <div class="col-2">
+                  <div class="weather-forecast-date">
+                    Thur
+                  </div>
+                  <img
+                    src="http://openweathermap.org/img/wn/50d@2x.png"
+                    alt=""
+                    width="36px"
+                  />
+                  <div class="weather-forecast-temps">
+                    <span class="weather-forecast-temp-max">18°</span>
+              <span class="weather-forecast-temp-min">12°</span>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <div class="weather-forecast-date">
+                    Thur
+                  </div>
+                  <img
+                    src="http://openweathermap.org/img/wn/50d@2x.png"
+                    alt=""
+                    width="36px"
+                  />
+                  <div class="weather-forecast-temps">
+                    <span class="weather-forecast-temp-max">18°</span>
+                    <span class="weather-forecast-temp-min">12°</span>
+                  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    <span class="github-link">
       <a
         href="https://github.com/brewhi/weather-wireframe.html"
-        id="github-link"
         >GitHub Repository</a
-      >
+      ></span>
     </div>
 
     <script src="src/index.js"></script>

@@ -1,7 +1,7 @@
 function formateDate() {
   let now = new Date();
 
-  let today = document.querySelector("p.today");
+  let date = document.querySelector("p.today");
 
   let days = [
     "Sunday",
@@ -24,7 +24,7 @@ function formateDate() {
     minutes = `0${minutes}`;
   }
 
-  today.innerHTML = `${day} ${hours}:${minutes}`;
+  date.innerHTML = `${day} ${hours}:${minutes}`;
 }
 
 function showWeather(response) {
@@ -33,7 +33,6 @@ function showWeather(response) {
   let descriptionElement = document.querySelector("#description");
   let humidityElement = document.querySelector("#humidity");
   let windElement = document.querySelector("#wind");
-  let dateElement = document.querySelector("#date");
   let iconElement = document.querySelector("#icon");
 
   celciusTemperature = response.data.main.temp;
@@ -43,11 +42,11 @@ function showWeather(response) {
   descriptionElement.innerHTML = response.data.weather[0].description;
   humidityElement.innerHTML = response.data.main.humidity;
   windElement.innerHTML = Math.round(response.data.wind.speed);
-  dateElement.innerHTML = formateDate(response.data.dt * 1000);
   iconElement.setAttribute(
     "src",
-    "https://openweathermap.org/img/wn/${response.data.weather[0].icon}10d@2x.png"
+    `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
   );
+  iconElement.setAttribute("alt", response.data.weather[0].description);
 }
 
 function searchCity(city) {

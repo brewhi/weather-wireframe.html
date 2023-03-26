@@ -1,13 +1,12 @@
 div.all {
   background-color: #f9f9f7;
   height: 400px;
-  width: 600px;
   display: block;
   margin: 60px auto;
+  width: 600px;
   border-radius: 20px;
   box-shadow: 12px 12px 2px 1px #efeee8;
 }
-
 .left {
   line-height: 50%;
   margin-top: -50px;
@@ -48,7 +47,6 @@ form input {
 .weather {
   display: block;
   padding: 10px;
-  flex-direction: row;
 }
 
 .weather img {
@@ -113,36 +111,20 @@ form input {
   font-size: 20px;
 }
 
-.hourly {
-  font-weight: 600;
+.weather-hourly {
+}
+
+.weather-forecast-date {
+}
+
+.weather-forecast-temps {
+}
+
+.github-link {
+  margin: -100px 0px;
   color: #5b6275;
-  padding: 10px;
-  font-size: 20px;
 }
 
-.hours {
-  display: inline-block;
-  line-height: normal;
-  list-style: none;
-  text-align: center;
-  margin-left: 10px;
-  border: 1px solid #efeee8;
-  border-radius: 20px;
-  box-shadow: 5px 5px 2px 1px #efeee8;
-  width: 550px;
-  color: #5b6275;
-  padding-right: 30px;
-}
-
-.hours li {
-  display: inline-block;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-#github-link {
-  display: block;
-  position: fixed;
-  margin: 30px auto;
+.github-link:active {
   color: #5b6275;
 }
