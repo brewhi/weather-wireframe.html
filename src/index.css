@@ -1,6 +1,6 @@
 div.all {
   background-color: #f9f9f7;
-  height: 300px;
+  height: 320px;
   display: block;
   margin: 60px auto;
   width: 600px;
@@ -12,10 +12,10 @@ div.all {
   margin-top: -50px;
 }
 
-h1 {
+#city {
   padding: 5px;
   font-size: 40px;
-  color: #5b6275cd;
+  color: #5b6275;
   text-align: left;
 }
 
@@ -44,6 +44,7 @@ form input {
   color: #5b6275;
   text-align: left;
   display: block;
+  font-weight: 200;
 }
 
 .weather {
@@ -80,11 +81,10 @@ form input {
 }
 
 #description {
-  padding-top: 10px;
-  line-height: 20%;
+  padding-top: 25px;
   color: #5b6275;
   font-size: 17px;
-  font-weight: 400;
+  font-weight: 200;
 }
 
 #description:first-letter {
@@ -92,8 +92,8 @@ form input {
 }
 
 .weather-prediction {
-  margin-top: -60px;
-  margin-left: 300px;
+  margin-top: -70px;
+  margin-left: 350px;
 }
 
 .elements {
@@ -102,14 +102,14 @@ form input {
   line-height: 20%;
   color: #5b6275;
   font-size: 15px;
-  font-weight: 300;
+  font-weight: 200;
   width: 150px;
 }
 
 .hilo {
   display: block;
   text-align: left;
-  font-weight: 300;
+  font-weight: 200;
   color: #5b6275;
   font-size: 20px;
 }
