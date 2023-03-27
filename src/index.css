@@ -9,7 +9,8 @@ div.all {
 }
 .left {
   line-height: 50%;
-  margin-top: -50px;
+  margin-top: -70px;
+  margin-left: 50px;
 }
 
 #city {
@@ -92,8 +93,8 @@ form input {
 }
 
 .weather-prediction {
-  margin-top: -70px;
-  margin-left: 350px;
+  margin-top: -60px;
+  margin-left: 150px;
 }
 
 .elements {
@@ -116,7 +117,7 @@ form input {
 
 .github-link {
   font-size: 13px;
-  margin-top: 20px;
+  margin-top: 40px;
   position: fixed;
   color: #5b6275;
 }
