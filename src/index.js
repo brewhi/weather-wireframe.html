@@ -36,6 +36,8 @@ function showWeather(response) {
   let windElement = document.querySelector("#wind");
   let iconElement = document.querySelector("#icon");
   let today = document.querySelector("p.today");
+  let highElement = document.querySelector("#high");
+  let lowElement = document.querySelector("#low");
 
   celciusTemperature = response.data.main.temp;
 
@@ -45,6 +47,8 @@ function showWeather(response) {
   humidityElement.innerHTML = response.data.main.humidity;
   windElement.innerHTML = Math.round(response.data.wind.speed);
   today.innerHTML = formateDate(response.data.dt * 1000);
+  highElement.innerHTML = Math.round(response.data.main.temp_max);
+  lowElement.innerHTML = Math.round(response.data.main.temp_min);
   iconElement.setAttribute(
     "src",
     `https://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
