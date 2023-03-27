@@ -113,18 +113,6 @@ form input {
   font-size: 20px;
 }
 
-.weather-hourly {
-  padding: 20px;
-}
-
-.weather-forecast-date {
-  font-size: 15px;
-}
-
-.weather-forecast-temps {
-  font-size: 14px;
-}
-
 .github-link {
   font-size: 13px;
   margin-top: 50px;
