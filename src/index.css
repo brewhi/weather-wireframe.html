@@ -51,11 +51,12 @@ form input {
 
 .weather img {
   margin: -10px 5px;
-  height: 75px;
-  width: 75px;
+  height: 85px;
+  width: 85px;
 }
 
 .weather #temperature {
+  padding-bottom: 20px;
   display: inline;
   color: #5b6275;
   line-height: 1;
@@ -80,7 +81,7 @@ form input {
   padding-top: 10px;
   line-height: 20%;
   color: #5b6275;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 400;
 }
 
@@ -124,6 +125,7 @@ form input {
 }
 
 .github-link {
+  font-size: 13px;
   margin-top: 50px;
   position: fixed;
   color: #5b6275;
