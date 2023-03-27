@@ -34,7 +34,8 @@ form input {
 #current-location-button {
   height: 40px;
   border-radius: 20px;
-  margin-left: 380px;
+  margin-left: 330px;
+  width: 230px;
 }
 .today {
   padding: 5px;
